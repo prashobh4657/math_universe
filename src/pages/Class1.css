@@ -1,0 +1,47 @@
+.class1-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+  }
+  
+  .class1-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .chapter-item {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e2e2e2;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .chapter-item:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .back-home {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .back-home:hover {
+    background-color: #45a049;
+  }
+  
