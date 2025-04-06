@@ -5,7 +5,7 @@
   min-height: 80vh; 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Vertically center content */
+  justify-content: center;
 }
 
 .home-container h1 {
@@ -23,12 +23,11 @@
 .card-container {
   display: grid;
   grid-template-columns: repeat(4, minmax(250px, 1fr)); 
-  /* Ensures good spacing between cards */
-  gap: 70px; /* Increased gap for better separation */
+  gap: 70px;
   justify-items: center;
   margin-top: 10px;
   color: white;
-  max-width: 1200px; /* Limit the maximum width of the cards container */
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto; 
 }
@@ -44,7 +43,7 @@
   text-align: center;
   font-size: 1.5rem;
   width: 100%;
-  max-width: 300px; /* Prevent the card from stretching too much */
+  max-width: 300px; 
   box-sizing: border-box;
 }
 
