@@ -1,7 +1,6 @@
 // src/components/Card.js
 import React from "react";
 import { Link } from "react-router-dom";
-// import "./Card.css";
 
 const Card = ({ title, link }) => {
   return (

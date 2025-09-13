@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { chapters } from "../data";
-import ChapterList from "../components/ChapterList";
+import { chapters } from "./data";
+import ChapterList from "./components/ChapterList";
 
 const ClassPage = () => {
   const { id } = useParams();

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import { classes } from "../data";
-import Card from "../components/Card";
+import { classes } from "./data";
+import Card from "./components/Card";
 
 function Home() {
   let cards = [];
